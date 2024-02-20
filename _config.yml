@@ -1,5 +1,6 @@
 title: BeT 
 description: (Behavior-enabled IoT)
 show_downloads: false
+github.is_user_page: false
 google_analytics:
 theme: jekyll-theme-dinky
