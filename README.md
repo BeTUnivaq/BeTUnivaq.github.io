@@ -9,3 +9,4 @@ BeT sees a future where humans and computational elements work together through 
 
 ## Vision
 BeT envisions a network of humans and computational elements that give rise to a network of cooperating human-digital entities. Both humans and cyber-physical entities can move in a shared environment, each one impacting the behavior of the other. In this vision, human and system behaviors are inferred, modeled and validated with the help of AI-enabled components.
+![EEG Band Discovery](/assets/img/vision.png)
