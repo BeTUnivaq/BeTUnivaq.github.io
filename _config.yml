@@ -1,5 +1,5 @@
 title: BeT (Behavior-enabled IoT)
 description: BeT sees a future where humans and computational elements work together through AI and machine learning algorithms to satisfy personalized and collective goals. In this vision, humans and cyber-physical entities can move in a shared environment, each impacting the behavior of the other. This implies a bi-causal connection between humans and software systems, where both software and human behavior can be adapted to follow expectations and actions for optimal Quality of Service and Quality of Experience.
-show_downloads: false
+#show_downloads: false
 google_analytics:
 theme: jekyll-theme-dinky
