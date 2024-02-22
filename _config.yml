@@ -7,4 +7,5 @@ google_analytics:
 #theme: jekyll-theme-dinky
 #theme: jekyll-theme-time-machine
 #theme: jekyll-theme-modernist
-theme: jekyll-theme-slate
+#theme: jekyll-theme-slate
+theme: jekyll-theme-leap-day
