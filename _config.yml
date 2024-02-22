@@ -4,4 +4,5 @@ show_downloads: false
 github.is_user_page: false
 github.is_project_page: false
 google_analytics:
-theme: jekyll-theme-dinky
+#theme: jekyll-theme-dinky
+theme: jekyll-theme-time-machine
