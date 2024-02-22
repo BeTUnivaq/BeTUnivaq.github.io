@@ -6,4 +6,5 @@ github.is_project_page: false
 google_analytics:
 #theme: jekyll-theme-dinky
 #theme: jekyll-theme-time-machine
-theme: jekyll-theme-modernist
+#theme: jekyll-theme-modernist
+theme: jekyll-theme-slate
