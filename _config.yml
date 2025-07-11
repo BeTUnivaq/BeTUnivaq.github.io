@@ -4,8 +4,8 @@ show_downloads: false
 github.is_user_page: false
 github.is_project_page: false
 google_analytics:
-#theme: jekyll-theme-dinky
+theme: jekyll-theme-dinky
 #theme: jekyll-theme-time-machine
 #theme: jekyll-theme-modernist
 #theme: jekyll-theme-slate
-theme: jekyll-theme-leap-day
+#theme: jekyll-theme-leap-day
