@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeT - Behavior-enabled IoT Solutions</title>
+    <meta name="description" content="Behavior-enabled IoT (BeT) solutions that adapt and learn from user behavior. Transform your business with intelligent, adaptive IoT systems.">
+    <meta name="keywords" content="BeT, Behavior-enabled IoT, Adaptive IoT, Smart behavior, Intelligent systems">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <div class="min-h-screen bg-white">
+        <!-- Header -->
+        <header class="bg-white shadow-sm sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-16">
+                    <div class="flex items-center">
+                        <i data-lucide="brain" class="h-8 w-8 text-purple-600 mr-2"></i>
+                        <span class="text-2xl font-bold text-gray-900">BeT</span>
+                        <span class="text-sm text-gray-600 ml-2 hidden sm:block">Behavior-enabled IoT</span>
+                    </div>
+                    
+                    <!-- Desktop Navigation -->
+                    <nav class="hidden md:flex space-x-8">
+                        <a href="#bet" class="text-gray-700 hover:text-purple-600 transition-colors">BeT</a>
+                        <a href="#goal" class="text-gray-700 hover:text-purple-600 transition-colors">Goal</a>
+                        <a href="#vision" class="text-gray-700 hover:text-purple-600 transition-colors">Vision</a>
+                        <a href="#results" class="text-gray-700 hover:text-purple-600 transition-colors">Results</a>
+                    </nav>
+
+                    <!-- Mobile menu button -->
+                    <button id="mobile-menu-btn" class="md:hidden p-2 rounded-md text-gray-700 hover:text-purple-600 transition-colors">
+                        <i data-lucide="menu" class="h-6 w-6"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="md:hidden bg-white border-t hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="#bet" class="block px-3 py-2 text-gray-700 hover:text-purple-600 transition-colors">BeT</a>
+                    <a href="#goal" class="block px-3 py-2 text-gray-700 hover:text-purple-600 transition-colors">Goal</a>
+                    <a href="#vision" class="block px-3 py-2 text-gray-700 hover:text-purple-600 transition-colors">Vision</a>
+                    <a href="#results" class="block px-3 py-2 text-gray-700 hover:text-purple-600 transition-colors">Results</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-br from-purple-50 to-indigo-100 py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+                            <span class="text-purple-600">BeT</span>
+                            <br>
+                            Behavior-enabled IoT
+                        </h1>
+                        <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                            Revolutionary IoT solutions that learn, adapt, and evolve based on user behavior 
+                            patterns, creating truly intelligent and responsive environments.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="#bet" class="bg-purple-600 text-white px-8 py-3 rounded-lg hover:bg-purple-700 transition-colors flex items-center justify-center">
+                                Explore BeT
+                                <i data-lucide="arrow-right" class="ml-2 h-5 w-5"></i>
+                            </a>
+                            <!-- <button  class="bg-purple-600 text-white px-8 py-3 rounded-lg hover:bg-purple-700 transition-colors flex items-center justify-center">
+                                Explore BeT
+                                <i data-lucide="arrow-right" class="ml-2 h-5 w-5"></i>
+                            </button> -->
+                            <!-- <button class="border border-purple-600 text-purple-600 px-8 py-3 rounded-lg hover:bg-purple-50 transition-colors">
+                                Learn More
+                            </button> -->
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img 
+                            src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                            alt="Behavior-enabled IoT Technology" 
+                            class="rounded-lg shadow-2xl w-full h-96 object-cover"
+                        >
+                        <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg">
+                            <div class="flex items-center">
+                                <i data-lucide="brain" class="h-8 w-8 text-purple-500 mr-3"></i>
+                                <div>
+                                    <p class="text-sm text-gray-600">Learning Status</p>
+                                    <p class="font-semibold text-gray-900">Adaptive AI Active</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BeT Section -->
+        <section id="bet" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                        What is BeT?
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Behavior-enabled IoT (BeT) represents the next evolution in smart technology, 
+                        where devices don't just connect—they understand, learn, and adapt to human behavior.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                    <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-xl hover:shadow-lg transition-shadow">
+                        <i data-lucide="brain" class="h-12 w-12 text-purple-600 mb-4"></i>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Behavioral Learning</h3>
+                        <p class="text-gray-600">
+                            Advanced AI algorithms analyze user patterns and preferences to create 
+                            personalized experiences that evolve over time.
+                        </p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl hover:shadow-lg transition-shadow">
+                        <i data-lucide="zap" class="h-12 w-12 text-blue-600 mb-4"></i>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Adaptive Response</h3>
+                        <p class="text-gray-600">
+                            Real-time adaptation to changing behaviors and environmental conditions, 
+                            ensuring optimal performance at all times.
+                        </p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-xl hover:shadow-lg transition-shadow">
+                        <i data-lucide="users" class="h-12 w-12 text-green-600 mb-4"></i>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Human-Centric</h3>
+                        <p class="text-gray-600">
+                            Designed around human behavior patterns, creating intuitive interactions 
+                            that feel natural and effortless.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <img 
+                            src="https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                            alt="BeT Smart Environment" 
+                            class="rounded-lg shadow-xl w-full h-80 object-cover"
+                        >
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Intelligent Ecosystems</h3>
+                        <p class="text-gray-600 mb-6">
+                            BeT creates interconnected environments where every device contributes to 
+                            understanding and predicting user needs, resulting in seamless automation.
+                        </p>
+                        <ul class="space-y-3">
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-5 w-5 text-green-500 mr-3"></i>
+                                <span class="text-gray-700">Predictive automation</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-5 w-5 text-green-500 mr-3"></i>
+                                <span class="text-gray-700">Contextual awareness</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i data-lucide="check-circle" class="h-5 w-5 text-green-500 mr-3"></i>
+                                <span class="text-gray-700">Continuous learning</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Goal Section -->
+        <section id="goal" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <i data-lucide="target" class="h-16 w-16 text-purple-600 mx-auto mb-6"></i>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                        Our Goal
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        To revolutionize the IoT landscape by creating intelligent systems that truly 
+                        understand and adapt to human behavior, making technology invisible and intuitive.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">Primary Objectives</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="bg-purple-100 p-2 rounded-lg mr-4 mt-1">
+                                    <i data-lucide="lightbulb" class="h-6 w-6 text-purple-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-2">Seamless Integration</h4>
+                                    <p class="text-gray-600">Create IoT solutions that integrate naturally into daily life without requiring conscious interaction.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-2 rounded-lg mr-4 mt-1">
+                                    <i data-lucide="bar-chart-3" class="h-6 w-6 text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-2">Enhanced Efficiency</h4>
+                                    <p class="text-gray-600">Optimize resource usage and system performance through intelligent behavioral analysis.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="bg-green-100 p-2 rounded-lg mr-4 mt-1">
+                                    <i data-lucide="users" class="h-6 w-6 text-green-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-2">User Empowerment</h4>
+                                    <p class="text-gray-600">Empower users with technology that anticipates needs and provides proactive solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img 
+                            src="https://images.pexels.com/photos/8386422/pexels-photo-8386422.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                            alt="Goal Achievement" 
+                            class="rounded-lg shadow-xl w-full h-80 object-cover"
+                        >
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="text-center">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Success Metrics</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                            <div>
+                                <p class="text-gray-600 font-semibold">High User Satisfaction</p>
+                                <p class="text-sm text-gray-500 mt-1">Exceptional user experience and adoption</p>
+                            </div>
+                            <div>
+                                <p class="text-gray-600 font-semibold">Energy Efficiency</p>
+                                <p class="text-sm text-gray-500 mt-1">Significant reduction in energy consumption</p>
+                            </div>
+                            <div>
+                                <p class="text-gray-600 font-semibold">Automated Operations</p>
+                                <p class="text-sm text-gray-500 mt-1">Reduced need for manual interventions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vision Section -->
+        <section id="vision" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <i data-lucide="eye" class="h-16 w-16 text-purple-600 mx-auto mb-6"></i>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                        Our Vision
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        A world where technology seamlessly adapts to human behavior, creating environments 
+                        that are not just smart, but truly intelligent and empathetic.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+                    <div>
+                        <img 
+                            src="assets/vision.png" 
+                            alt="Future Vision" 
+                            class="rounded-lg shadow-xl w-full h-80 object-contain bg-gray-50"
+                        >
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">The Future of IoT</h3>
+                        <p class="text-gray-600 mb-6">
+                            We envision a future where IoT devices don't just respond to commands—they 
+                            anticipate needs, learn preferences, and create personalized experiences that 
+                            enhance quality of life.
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <i data-lucide="star" class="h-5 w-5 text-yellow-500 mr-3"></i>
+                                <span class="text-gray-700">Predictive intelligence in every device</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i data-lucide="star" class="h-5 w-5 text-yellow-500 mr-3"></i>
+                                <span class="text-gray-700">Seamless human-technology interaction</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i data-lucide="star" class="h-5 w-5 text-yellow-500 mr-3"></i>
+                                <span class="text-gray-700">Sustainable and efficient ecosystems</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-r from-purple-600 to-blue-600 p-8 rounded-xl text-white">
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold mb-4">Vision Statement</h3>
+                        <p class="text-lg leading-relaxed max-w-4xl mx-auto">
+                            "To create a world where technology becomes an invisible, intelligent companion 
+                            that understands, learns, and adapts to human behavior, making life more 
+                            comfortable, efficient, and meaningful for everyone."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section id="results" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <i data-lucide="trending-up" class="h-16 w-16 text-purple-600 mx-auto mb-6"></i>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                        Results & Impact
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Measurable outcomes and real-world impact of BeT implementation across 
+                        various industries and applications.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">Performance Metrics</h3>
+                        <div class="space-y-6">
+                            <div>
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="text-gray-700">Learning Accuracy</span>
+                                    <span class="text-purple-600 font-semibold">High Precision</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-3">
+                                    <div class="bg-purple-600 h-3 rounded-full" style="width: 94%"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="text-gray-700">Response Time</span>
+                                    <span class="text-blue-600 font-semibold">Ultra-Fast</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-3">
+                                    <div class="bg-blue-600 h-3 rounded-full" style="width: 96%"></div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="text-gray-700">Adaptation Speed</span>
+                                    <span class="text-green-600 font-semibold">Instant</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-3">
+                                    <div class="bg-green-600 h-3 rounded-full" style="width: 92%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <img 
+                            src="https://images.pexels.com/photos/8386421/pexels-photo-8386421.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                            alt="Results Dashboard" 
+                            class="rounded-lg shadow-xl w-full h-80 object-cover"
+                        >
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg mb-16">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Publications</h3>
+                    <div class="max-w-4xl mx-auto">
+                        <div class="space-y-6">
+                           
+                            <div class="border-l-4 border-indigo-500 pl-6">
+                                <h4 class="font-semibold text-gray-900 mb-2">
+                                    "A Visionary Architecture for Adaptive Data Contracts in Behavior-Driven IoT Systems"
+                                </h4>
+                                <p class="text-gray-600 mb-1">
+                                    ECSA 2025 1st International Workshop on Software Architecture for Data-Intensive Systems (SADIS)
+                                </p>
+                                <p class="text-sm text-gray-500">
+                                    Authors: Moamin Abughazala, Henry Muccini
+                                </p>
+                            </div>
+
+                            <div class="border-l-4 border-pink-500 pl-6">
+                                <h4 class="font-semibold text-gray-900 mb-2">
+                                    "DQGen: Scalable Metadata-Driven Automation for Data Quality Validation in Data-Intensive Applications"
+                                </h4>
+                                <p class="text-gray-600 mb-1">
+                                    ECSA 2025 1st International Workshop on Software Architecture for Data-Intensive Systems (SADIS)
+                                </p>
+                                <p class="text-sm text-gray-500">
+                                    Authors: Moamin Abughazala, Henry Muccini
+                                </p>
+                            </div>
+
+                            <div class="border-l-4 border-teal-500 pl-6">
+                                <h4 class="font-semibold text-gray-900 mb-2">
+                                    "Quality by Prompt: LLM-Powered Transformation of Data Quality Requirements into Great Expectations"
+                                </h4>
+                                <p class="text-gray-600 mb-1">
+                                    51st Euromicro Conference Series on Software Engineering and Advanced Applications (SEAA 2025)
+                                </p>
+                                <p class="text-sm text-gray-500">
+                                    Authors: Moamin Abughazala, Henry Muccini
+                                </p>
+                            </div>
+
+                            <div class="border-l-4 border-orange-500 pl-6">
+                                <h4 class="font-semibold text-gray-900 mb-2">
+                                    "FairWatt: An Energy Accounting System for Fair and Sustainable Data Centers"
+                                </h4>
+                                <p class="text-gray-600 mb-1">
+                                    International Conference on Information and Communications Technology for Sustainability (ICT4S 2025)
+                                </p>
+                                <p class="text-sm text-gray-500">
+                                    Authors: Alex Montoya Franco, Henry Muccini, Bram van der Waaij
+                                </p>
+            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Industry Impact</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="text-center">
+                            <div class="bg-purple-100 p-4 rounded-lg mb-4">
+                                <h4 class="font-semibold text-gray-900">Smart Homes</h4>
+                                <p class="text-gray-600 mt-2">Enhanced automation and energy efficiency through behavioral learning</p>
+                            </div>
+                        </div>
+                        
+                        <div class="text-center">
+                            <div class="bg-blue-100 p-4 rounded-lg mb-4">
+                                <h4 class="font-semibold text-gray-900">Healthcare</h4>
+                                <p class="text-gray-600 mt-2">Adaptive patient monitoring and personalized care delivery</p>
+                            </div>
+                        </div>
+                        
+                        <div class="text-center">
+                            <div class="bg-green-100 p-4 rounded-lg mb-4">
+                                <h4 class="font-semibold text-gray-900">Industrial</h4>
+                                <p class="text-gray-600 mt-2">Predictive maintenance and adaptive manufacturing processes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-900 text-white py-1">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div class="flex justify-between items-center flex-wrap">
+                <!-- Left side: Logo + Description -->
+                <div class="flex items-center text-sm text-gray-400">
+                  <i data-lucide="brain" class="h-6 w-6 text-purple-400 mr-2"></i>
+                  <span class="font-bold text-white mr-2">BeT</span>
+                  <span>| Behavior-enabled IoT solutions that learn, adapt, and evolve with you.</span>
+                </div>
+          
+                <!-- Right side: Contact Email -->
+                <div class="text-sm text-gray-400 mt-2 sm:mt-0">
+                  Contact: <a href="mailto:henry.muccini@univaq.it" class="text-purple-400 hover:underline">henry.muccini@univaq.it</a>
+                </div>
+              </div>
+          
+              <div class="border-t border-gray-800 mt-2 pt-2 text-center text-gray-400 text-sm">
+                <p>&copy; 2025 BeT - Behavior-enabled IoT. All rights reserved.</p>
+              </div>
+            </div>
+          </footer>
+        <!-- <footer class="bg-gray-900 text-white py-1">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div class="flex items-center">
+                <i data-lucide="brain" class="h-6 w-6 text-purple-400 mr-2"></i>
+                <span class="text-lg font-bold">BeT</span>
+                <span class="ml-2 text-sm text-gray-400">| Behavior-enabled IoT solutions that learn, adapt, and evolve with you.</span>
+              </div>
+              <div class="border-t border-gray-800 mt-2 pt-2 text-center text-gray-400 text-sm">
+                <p>&copy; 2025 BeT - Behavior-enabled IoT. All rights reserved.</p>
+              </div>
+            </div>
+          </footer> -->
+       
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
