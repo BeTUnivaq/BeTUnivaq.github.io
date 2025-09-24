@@ -12,40 +12,40 @@
 <body>
     <div class="min-h-screen bg-white">
         <!-- Header -->
-      <header class="bg-white shadow-sm sticky top-0 z-50">
+     <header class="bg-white shadow-sm sticky top-0 z-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <!-- taller header -->
-    <div class="relative flex items-center justify-between h-28">
-      
-      <!-- Left side: BeT block -->
-      <div class="flex items-center flex-1 justify-start">
+    <!-- grid keeps true center -->
+    <div class="grid grid-cols-3 items-center h-28">
+
+      <!-- Left: BeT -->
+      <div class="flex items-center justify-start">
         <i data-lucide="brain" class="h-10 w-10 text-purple-600 mr-3"></i>
         <span class="text-3xl font-bold text-gray-900">BeT</span>
         <span class="text-base text-gray-600 ml-3 hidden sm:block">Behavior-enabled IoT</span>
       </div>
 
       <!-- Center: Logos -->
-      <div class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        <img src="assets/logo.png"
-             alt="EU MUR ItaliaDomani UnivAQ"
-             class="h-16 w-auto object-contain">
+      <div class="justify-self-center">
+        <img
+          src="assets/logo.png"
+          alt="EU MUR ItaliaDomani UnivAQ"
+          class="h-16 w-auto object-contain mx-auto"
+        />
       </div>
 
-      <!-- Right side: navigation -->
-      <div class="flex items-center flex-1 justify-end">
+      <!-- Right: Nav -->
+      <div class="flex items-center justify-end">
         <nav class="hidden md:flex space-x-8 text-lg">
           <a href="#bet" class="text-gray-700 hover:text-purple-600">BeT</a>
           <a href="#goal" class="text-gray-700 hover:text-purple-600">Goal</a>
           <a href="#vision" class="text-gray-700 hover:text-purple-600">Vision</a>
           <a href="#results" class="text-gray-700 hover:text-purple-600">Results</a>
         </nav>
-
-        <!-- Mobile menu button -->
-        <button id="mobile-menu-btn"
-                class="md:hidden p-2 rounded-md text-gray-700 hover:text-purple-600">
+        <button id="mobile-menu-btn" class="md:hidden p-2 rounded-md text-gray-700 hover:text-purple-600">
           <i data-lucide="menu" class="h-8 w-8"></i>
         </button>
       </div>
+
     </div>
   </div>
 
