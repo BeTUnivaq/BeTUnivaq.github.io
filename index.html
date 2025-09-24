@@ -12,37 +12,38 @@
 <body>
     <div class="min-h-screen bg-white">
         <!-- Header -->
-       <header class="bg-white shadow-sm sticky top-0 z-50">
+      <header class="bg-white shadow-sm sticky top-0 z-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-20 relative">
+    <!-- Increase h-16 -> h-28 to add more height -->
+    <div class="flex items-center justify-between h-28 relative">
 
-      <!-- Left side: BeT logo + title -->
+      <!-- Left side -->
       <div class="flex items-center flex-1">
-        <i data-lucide="brain" class="h-8 w-8 text-purple-600 mr-2"></i>
-        <span class="text-2xl font-bold text-gray-900">BeT</span>
-        <span class="text-sm text-gray-600 ml-2 hidden sm:block">Behavior-enabled IoT</span>
+        <i data-lucide="brain" class="h-10 w-10 text-purple-600 mr-3"></i>
+        <span class="text-3xl font-bold text-gray-900">BeT</span>
+        <span class="text-base text-gray-600 ml-3 hidden sm:block">Behavior-enabled IoT</span>
       </div>
 
-      <!-- Center: EU–MUR–ItaliaDomani–UnivAQ logo bar -->
+      <!-- Center: Logos -->
       <div class="absolute left-1/2 transform -translate-x-1/2">
-        <img src="assets/logo.png"
+        <img src="images/eu-mur-italiadomani-univaq.png"
              alt="EU MUR ItaliaDomani UnivAQ"
-             class="h-12 w-auto object-contain">
+             class="h-16 w-auto object-contain"> <!-- increase h-12 -> h-16 -->
       </div>
 
-      <!-- Right side: Desktop navigation & mobile menu -->
+      <!-- Right side -->
       <div class="flex items-center flex-1 justify-end">
-        <nav class="hidden md:flex space-x-8">
-          <a href="#bet" class="text-gray-700 hover:text-purple-600 transition-colors">BeT</a>
-          <a href="#goal" class="text-gray-700 hover:text-purple-600 transition-colors">Goal</a>
-          <a href="#vision" class="text-gray-700 hover:text-purple-600 transition-colors">Vision</a>
-          <a href="#results" class="text-gray-700 hover:text-purple-600 transition-colors">Results</a>
+        <nav class="hidden md:flex space-x-8 text-lg"> <!-- text-lg to scale menu -->
+          <a href="#bet" class="text-gray-700 hover:text-purple-600">BeT</a>
+          <a href="#goal" class="text-gray-700 hover:text-purple-600">Goal</a>
+          <a href="#vision" class="text-gray-700 hover:text-purple-600">Vision</a>
+          <a href="#results" class="text-gray-700 hover:text-purple-600">Results</a>
         </nav>
 
         <!-- Mobile menu button -->
         <button id="mobile-menu-btn"
-                class="md:hidden p-2 rounded-md text-gray-700 hover:text-purple-600 transition-colors">
-          <i data-lucide="menu" class="h-6 w-6"></i>
+                class="md:hidden p-2 rounded-md text-gray-700 hover:text-purple-600">
+          <i data-lucide="menu" class="h-8 w-8"></i>
         </button>
       </div>
     </div>
