@@ -14,26 +14,24 @@
         <!-- Header -->
      <header class="bg-white shadow-sm sticky top-0 z-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <!-- grid keeps true center -->
+    <!-- use grid to control three zones -->
     <div class="grid grid-cols-3 items-center h-28">
 
       <!-- Left: BeT -->
       <div class="flex items-center justify-start">
         <i data-lucide="brain" class="h-10 w-10 text-purple-600 mr-3"></i>
         <span class="text-3xl font-bold text-gray-900">BeT</span>
-        <!--<span class="text-base text-gray-600 ml-3 hidden sm:block">Behavior-enabled IoT</span>-->
+        <span class="text-base text-gray-600 ml-3 hidden sm:block">Behavior-enabled IoT</span>
       </div>
 
       <!-- Center: Logos -->
-      <div class="justify-self-center">
-        <img
-          src="assets/logo.png"
-          alt="EU MUR ItaliaDomani UnivAQ"
-          class="h-16 w-auto object-contain mx-auto"
-        />
+      <div class="flex justify-center">
+        <img src="assets/logo.png"
+             alt="EU MUR ItaliaDomani UnivAQ"
+             class="h-16 w-auto object-contain">
       </div>
 
-      <!-- Right: Nav -->
+      <!-- Right: Navigation -->
       <div class="flex items-center justify-end">
         <nav class="hidden md:flex space-x-8 text-lg">
           <a href="#bet" class="text-gray-700 hover:text-purple-600">BeT</a>
@@ -41,7 +39,10 @@
           <a href="#vision" class="text-gray-700 hover:text-purple-600">Vision</a>
           <a href="#results" class="text-gray-700 hover:text-purple-600">Results</a>
         </nav>
-        <button id="mobile-menu-btn" class="md:hidden p-2 rounded-md text-gray-700 hover:text-purple-600">
+
+        <!-- Mobile menu button -->
+        <button id="mobile-menu-btn"
+                class="md:hidden p-2 rounded-md text-gray-700 hover:text-purple-600">
           <i data-lucide="menu" class="h-8 w-8"></i>
         </button>
       </div>
@@ -59,6 +60,7 @@
     </div>
   </div>
 </header>
+
 
 
 
